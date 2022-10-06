@@ -27,8 +27,7 @@ const contract = new ethers.Contract(opNftAddress, nftABI, PROVIDER.OPTIMISM);
 let fromBlock = 22945787;
 
 // change to scrape recent events
- fromBlock = 26545787
-
+ fromBlock = 27585787
 let toBlock = "latest";
 
 // fetch 80k blocks of events at a time
